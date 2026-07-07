@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor targets so the fixed navbar doesn't cover section headings */
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply bg-ink text-body font-sans antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #7fffb0;
+  color: #0d0f0d;
+}
+
+/* Thin mint scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2620;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5fcf8c;
+}
+
+/* Subtle grain/noise overlay for depth (fixed, non-interactive) */
+.grain::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
