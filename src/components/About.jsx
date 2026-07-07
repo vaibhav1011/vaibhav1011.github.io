@@ -6,7 +6,7 @@ export default function About() {
       <Heading eyebrow="About">Who I Am</Heading>
       <div className="grid gap-10 md:grid-cols-5">
         <p className="md:col-span-3 text-lg leading-relaxed text-body">
-          I'm a 3rd-year B.Tech CSE student at{' '}
+          I'm a 4th-year B.Tech CSE student at{' '}
           <span className="text-white">Bennett University</span> (CGPA{' '}
           <span className="text-mint">8.0</span>), passionate about backend systems,
           AI/agentic systems, and full-stack development. I like turning messy problems into
@@ -16,7 +16,7 @@ export default function About() {
         <div className="md:col-span-2 grid grid-cols-2 gap-4">
           {[
             { k: '8.0', v: 'CGPA' },
-            { k: '3rd', v: 'Year B.Tech CSE' },
+            { k: '4th', v: 'Year B.Tech CSE' },
             { k: '5+', v: 'Core Languages' },
             { k: '3', v: 'Flagship Projects' },
           ].map((s) => (
