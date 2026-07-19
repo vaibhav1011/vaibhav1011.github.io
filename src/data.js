@@ -48,6 +48,21 @@ export const PROJECTS = [
     github: 'https://github.com/vaibhav1011/meeting-transcript-ai',
   },
   {
+    title: 'AI Virtual Mouse & Gesture Keyboard',
+    tech: ['Python', 'OpenCV', 'MediaPipe', 'PyAutoGUI', 'pynput', 'NumPy'],
+    description:
+      'Real-time hand-gesture control system using OpenCV and MediaPipe hand-landmark tracking. Supports cursor movement, left/right click, scroll, zoom, and drag-and-drop via a custom gesture state machine with debouncing and hysteresis to prevent misfires, plus a gesture-driven virtual keyboard with both dwell-time and pinch-to-confirm typing modes.',
+    github: 'https://github.com/vaibhav1011/ai-virtual-mouse-keyboard',
+    // TODO: add demo GIF/video once the card layout supports media
+  },
+  {
+    title: 'Radhey Girls PG — Business Website & Local SEO',
+    tech: ['HTML', 'CSS', 'JavaScript', 'SEO'],
+    description:
+      'Designed, built, and deployed a live production website for a family-run PG accommodation business near Bennett University, including custom domain setup and local SEO to improve discoverability for prospective tenants. End-to-end ownership across design, development, hosting, and deployment — live at radheygirlspg.in.',
+    github: 'https://github.com/vaibhav1011/radheygirlspg',
+  },
+  {
     title: 'Database-Driven Library Management Backend',
     tech: ['Python', 'SQLite3'],
     description:
