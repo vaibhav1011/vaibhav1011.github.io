@@ -30,6 +30,14 @@ export const EXPERIENCE = [
       'Debugged and resolved application bugs to improve overall stability.',
     ],
   },
+  {
+    role: 'Ai Builder Intern',
+    company: 'Gravity.fast',
+    period: 'September 2026 – Ongoing',
+    points: [
+      'Currently building Ai Automation for Users of Gravity.fast.',
+    ],
+  }
 ]
 
 export const PROJECTS = [
@@ -56,7 +64,23 @@ export const PROJECTS = [
     // TODO: add demo GIF/video once the card layout supports media
   },
   {
-    title: 'Radhey Girls PG — Business Website & Local SEO',
+    title: 'Receipt OCR Extractor',
+    tech: ['Python','Tesseract OCR', 'OpenCV + Pillow', 'PyYAML','NumPy'],
+    description:
+      'Built an OCR-based receipt extraction system with confidence-aware field scoring and automated expense summarization, handling real-world noise (blur, skew, lighting)..',
+    github: 'https://github.com/vaibhav1011/Receipt-OCR-Extractor',
+    // TODO: add demo GIF/video once the card layout supports media
+  },
+  {
+    title: 'Agentic Conversion Merchant Growth Engine',
+    tech: ['Python', 'FastAPI' , 'LangGraph', 'Google Gemini', 'RAG with PostgreSQL + pgvector', 'Redis', 'React (dashboard)', 'Docker'],
+    description:
+      'Agentic AI system for e-commerce cart recovery — LangGraph multi-agent pipeline with RAG-based policy resolution and deterministic financial guardrails.',
+    github: 'https://github.com/vaibhav1011/Agentic-Conversion-Merchant-Growth-Engine',
+    // TODO: add demo GIF/video once the card layout supports media
+  },
+  {
+    title: 'Business Website & Local SEO',
     tech: ['HTML', 'CSS', 'JavaScript', 'SEO'],
     description:
       'Designed, built, and deployed a live production website for a family-run PG accommodation business near Bennett University, including custom domain setup and local SEO to improve discoverability for prospective tenants. End-to-end ownership across design, development, hosting, and deployment — live at radheygirlspg.in.',
@@ -77,6 +101,7 @@ export const SKILLS = [
   { group: 'Backend / DevOps', items: ['Node.js', 'Express', 'Docker', 'Linux', 'AWS'] },
   { group: 'Data / DB', items: ['MongoDB', 'SQLite3', 'PostgreSQL/pgvector', 'SQL'] },
   { group: 'AI / ML Tools', items: ['LangGraph', 'WhisperX', 'pyannote.audio', 'OpenAI/Ollama', 'RAG'] },
+  { group: 'Automation / Workflow Tools', items: ['Activepieces'] },
 ]
 
 export const CERTIFICATIONS = [

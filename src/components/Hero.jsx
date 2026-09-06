@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="mb-6 text-base font-medium text-white sm:text-lg"
         >
-          Hey <span className="inline-block">👋</span>, I'm a Full Stack Developer
+          Hey <span className="inline-block">👋</span>, I'm a AI Developer
         </motion.p>
 
         {/* Massive name — clamp() keeps it dominant but responsive */}
