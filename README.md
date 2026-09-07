@@ -4,7 +4,9 @@ My personal portfolio site — a single-page site covering my background, work e
 skills, and projects.
 testing release notes flow
 RETESTING RELEASE NOTES FLOW 
-
+## Features
+- Dark/light theme toggle
+- Interactive project cards
 🔗 **Live site:** https://vaibhav1011.github.io
 
 ## Built with
