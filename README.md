@@ -7,6 +7,7 @@ RETESTING RELEASE NOTES FLOW
 ## Features
 - Dark/light theme toggle
 - Interactive project cards
+- Visitors can switch themes; choice is remembered.
 🔗 **Live site:** https://vaibhav1011.github.io
 
 ## Built with
