@@ -34,3 +34,5 @@ npm run dev
 npm run build
 npm run deploy
 ```
+
+> Note: the /projects page now lives at /work.
