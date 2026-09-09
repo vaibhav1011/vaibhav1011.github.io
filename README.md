@@ -4,6 +4,8 @@ My personal portfolio site — a single-page site covering my background, work e
 skills, and projects.
 testing release notes flow
 RETESTING RELEASE NOTES FLOW 
+Trial #3
+
 ## Features
 - Dark/light theme toggle
 - Interactive project cards
